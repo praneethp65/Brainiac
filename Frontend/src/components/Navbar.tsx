@@ -23,7 +23,7 @@ export function Navbar(props: scrollProps) {
 
   return (
     <div className="fixed top-0 right-0 left-0 z-20">
-      <div className="flex justify-between items-center px-3 sm:px-10 py-5 bg-white">
+      <div className="flex justify-between items-center px-3 sm:px-10 py-5 bg-black">
         <div className="text-blue-600 text-3xl font-bold font-mono tracking-tighter hover:cursor-pointer mt-1">
           <span className="text-gray-700"></span>Brainiac
         </div>
