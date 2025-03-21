@@ -88,7 +88,7 @@ export function Home() {
           </div>
           <div className="flex gap-3 justify-center items-center">
             <div
-              className="text-lg font-thin hover:cursor-pointer text-white font-mono rounded-md hover:text-black"
+              className="text-lg font-thin hover:cursor-pointer text-white font-mono rounded-md hover:text-purple-800"
               onClick={() => navigate("/search")}
             >
               Query Your Brain?
@@ -113,7 +113,7 @@ export function Home() {
               className="hover:cursor-pointer"
               onClick={() => setIsAccountModelOpen((prev) => !prev)}
             >
-              <div className="w-12 h-12 rounded-full bg-blue-200 flex items-center justify-center text-white font-medium text-2xl">
+              <div className="w-12 h-12 rounded-full bg-purple-800 flex items-center justify-center text-white font-medium text-2xl">
                 {firstLetter}
               </div>
               {IsAccountModelOpen && (

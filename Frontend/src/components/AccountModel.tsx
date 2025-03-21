@@ -14,7 +14,7 @@ export function AccountModel() {
     <div>
       <div className="bg-white rounded-lg shadow-lg px-5 py-4 min-w-64 border border-gray-200">
         <div className="flex flex-col items-center mb-3">
-          <div className="text-3xl bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mr-3">
+          <div className="text-3xl bg-purple-800 text-white rounded-full w-16 h-16 flex items-center justify-center mr-3">
             {auth.user?.username.charAt(0).toUpperCase()}
           </div>
           <div className="flex-1">

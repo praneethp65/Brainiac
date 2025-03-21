@@ -12,7 +12,7 @@ export function Sidebar() {
   return (
     <div className="h-screen ml-11 w-60 hidden lg:block">
       <div className="flex items-center py-7">
-        <div className="text-blue-600 text-3xl font-bold hover:cursor-pointer">
+        <div className="text-purple-800 text-3xl font-bold hover:cursor-pointer">
           <span className="text-white"></span>Brainiac
         </div>
       </div>

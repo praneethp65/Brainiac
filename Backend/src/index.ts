@@ -11,7 +11,10 @@ const app = express();
 app.use(express.json());
 dotenv.config();
 
-const allowedOrigins = ["http://localhost:5173", "https://brainiac.vercel.app"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://brainiac-store.vercel.app",
+];
 app.use(
   cors({
     origin: (origin, callback) => {

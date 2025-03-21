@@ -33,16 +33,16 @@ export const QueryYourBrain: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen text-gray-700 z-0">
+    <div className="flex flex-col h-screen text-white z-0">
       <header className="flex items-center justify-between py-4 px-6">
         <div className="flex items-center">
-          <div className="text-blue-600 text-3xl font-bold hover:cursor-pointer">
-            <span className="text-gray-700"></span>Brainiac
+          <div className="text-purple-800 text-3xl font-bold hover:cursor-pointer">
+            <span className="text-white"></span>Brainiac
           </div>
         </div>
         <div className="flex items-center">
           <div
-            className="w-12 h-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-600 font-medium text-2xl hover:cursor-pointer"
+            className="w-12 h-12 rounded-full bg-purple-800 flex items-center justify-center text-white font-medium text-2xl hover:cursor-pointer"
             onClick={() => setIsAccountModelOpen((prev) => !prev)}
           >
             {auth.user?.username.charAt(0).toUpperCase()}
@@ -57,7 +57,7 @@ export const QueryYourBrain: React.FC = () => {
 
       <main className="flex-1 flex flex-col items-center justify-center">
         <div className="w-full max-w-3xl">
-          <h2 className="text-3xl font-bold text-center text-gray-700">
+          <h2 className="text-3xl font-bold text-center text-white">
             Query Your Brain
           </h2>
 
@@ -65,7 +65,7 @@ export const QueryYourBrain: React.FC = () => {
             <form className="relative mt-8">
               <div className="relative rounded-xl px-5 flex items-center">
                 <textarea
-                  className="w-full p-4 pr-12 bg-transparent outline-none resize-none text-gray-700 placeholder-gray-400 border-2 border-gray-400 rounded-2xl scrollbar-none"
+                  className="w-full p-4 pr-12 bg-transparent outline-none resize-none text-white placeholder-gray-400 border-2 border-gray-400 rounded-2xl scrollbar-none"
                   placeholder="Query Brain"
                   rows={1}
                   value={query}
@@ -99,7 +99,7 @@ export const QueryYourBrain: React.FC = () => {
         </div>
       </main>
 
-      <footer className="p-4 text-center text-sm text-gray-500 border-t border-gray-200">
+      <footer className="p-4 text-center text-sm text-white border-t border-gray-200">
         <p>Brainiac can effortlessly retrieve your content.</p>
       </footer>
     </div>
