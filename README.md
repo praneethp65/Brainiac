@@ -6,8 +6,8 @@ Brainiac is a platform designed to help you save and organize different social m
 
 - **Universal Storage**: Consolidate various types of content, including tweets, posts, articles, links, and personal notes, into a single repository.
 - **Sharing Capabilities**: Share your dashboard with friends.
-- **AI Query search**: Retrieve and discuss about your content with the website's ai with just simple prompts.
-- 
+- **AI Query search**: Retrieve and discuss about your content with the website's ai using simple prompts.
+
 
 ## Technology Stack
 
